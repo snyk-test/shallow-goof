@@ -11,7 +11,8 @@
     "qs": "6.0.4",
     "node-uuid": "1.4.6",
     "semver": "2",
-    "xbhxbh": "*"
+    "xbhxbh": "*",
+    "jquey": "*"
   }
 }
 
