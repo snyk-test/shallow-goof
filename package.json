@@ -8,6 +8,7 @@
     "url": "https://github.com/Snyk/shallow-goof"
   },
   "dependencies": {
+    "chokidar": "2.0.0",
     "qs": "6.0.4",
     "node-uuid": "1.4.6",
     "semver": "4"
