@@ -1,0 +1,21 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  'npm:qs:20170213':
+    - qs:
+        reason: None given
+        expires: '2020-01-29T08:09:42.563Z'
+  'npm:qs:20140806':
+    - '*':
+        reason: None Given
+        expires: 2020-02-04T11:49:09.242Z
+  'npm:qs:20140806-1':
+    - qs:
+        reason: None given
+        expires: '2020-01-29T08:09:42.563Z'
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - https-proxy-agent:
+        patched: '2019-12-30T08:09:18.218Z'
